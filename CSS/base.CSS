@@ -1,26 +1,51 @@
+body { 
+    background-attachment:
+        
+}
 * {
     box-sizing: border-box;
 }
 
 h1 {
-    color: #ff4a00;
-    font-size: 40px
+    color: #cccccc ;
+    font-size: 40px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     color: #0021a5;
 }
 
 p {
     font-family: arial, helvetica, sans-serif;
     font-size: 16px;
-    line-height: 24PX;
+    line-height: 20px;
 }
 
 img {
-    border: 5px soild #CCCCCC;
+    float: left;
+    border: 1%;
     margin: 0 5% 0 5%;
     padding: 1%; /* TRoubLe */
-    width: 90%;
+    width: 40%;
 }
+
+nav {
+    list-style-type: none;
+    padding-right: 10;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav li { 
+    display: inline;
+    margin-right: 30px
+}
+    
+#content {
+    background-color: gray;
+    border: 1px solid red;
+    margin-left: 35%;
+    width: 65%;
+    
+    }
