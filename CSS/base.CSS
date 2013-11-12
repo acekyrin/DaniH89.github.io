@@ -32,9 +32,9 @@ img {
 
 nav {
     list-style-type: none;
-    padding-right: 10;
-    text-align: center;
-    text-transform: uppercase;
+    padding-right: 10px;
+    text-align:center;
+    text-transform: uppercase; 
 }
 
 nav li { 
@@ -49,3 +49,37 @@ nav li {
     width: 65%;
     
     }
+@media screen and (max-width: 600px) {
+
+   body {
+      padding: 3%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+nav{
+    border:0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+}
+
+#content {
+    clear: left;
+    margin-left: 0;
+    width: 100%;
+}
+
+}
+    
