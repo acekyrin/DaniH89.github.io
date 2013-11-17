@@ -23,32 +23,33 @@ p {
 }
 
 img {
-    float: left;
-    border: 1%;
-    margin: 0 5% 0 5%;
-    padding: 1%; /* TRoubLe */
+    float: right; 100%;
+    border: 30%;
+    margin: 0 10% 0 10%;
+    padding: 2%; /* TRoubLe */
     width: 40%;
 }
 
 nav {
     list-style-type: none;
     padding-right: 10px;
-    text-align:center;
+    text-align: center;
     text-transform: uppercase; 
+    
 }
 
 nav li { 
     display: inline;
-    margin-right: 30px
+    margin-right: 20px
 }
-    
+
 #content {
     background-color: gray;
     border: 1px solid red;
     margin-left: 35%;
     width: 65%;
     
-    }
+}
 @media screen and (max-width: 600px) {
 
    body {
@@ -59,7 +60,7 @@ h1, h2 {
     text-align: center;
 }
 
-nav{
+nav {
     border:0;
     width: 100%;
 }
@@ -81,5 +82,4 @@ nav li {
     width: 100%;
 }
 
-}
-    
+}    
