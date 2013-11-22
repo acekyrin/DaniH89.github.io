@@ -1,5 +1,5 @@
 body { 
-    background-attachment:
+    background: url(../img/bg-stripes.jpg) repeat-x;
         
 }
 * {
@@ -7,13 +7,13 @@ body {
 }
 
 h1 {
-    color: #cccccc ;
+    color: #DB7093    ;
     font-size: 40px;
 }
 
 h2 {
-    font-size: 20px;
-    color: #0021a5;
+    font-size: 40px;
+    color: #DB7093;
 }
 
 p {
@@ -24,10 +24,10 @@ p {
 
 img {
     float: right; 100%;
-    border: 30%;
-    margin: 0 10% 0 10%;
+    border: 40%;
+    margin: 2.7% 10% 0 10%;
     padding: 2%; /* TRoubLe */
-    width: 40%;
+    width: 60%;
 }
 
 nav {
@@ -44,21 +44,30 @@ nav li {
 }
 
 #content {
-    background-color: gray;
-    border: 1px solid red;
-    margin-left: 35%;
-    width: 65%;
+    background-color:;
+    border: 1px
+    margin-left: 4%;
+    width: 60%;
     
 }
 @media screen and (max-width: 600px) {
 
-   body {
+body {
       padding: 3%;
 }
 
 h1, h2 {
     text-align: center;
+    font-size: 30px
 }
+   
+img {
+    float: center; 100%;
+    border: 30%;
+    margin: 0 10% 0 10%;
+    padding: 2%; /* TRoubLe */
+    width: 250px;
+    }
 
 nav {
     border:0;
@@ -81,5 +90,9 @@ nav li {
     margin-left: 0;
     width: 100%;
 }
+    
+    .phone-noshow {
+        display: none;   
+    }
 
 }    
