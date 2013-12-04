@@ -26,17 +26,42 @@ h1 {
 }
 
 p {
+    font-family:
 
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 45px;
     color: #DB7093;
     border-bottom-style:hidden
         
 }
 
+h3 {
+    font-size: 30px;
+    color: #DB7093;
+    border-bottom-style:hidden
+}
+
+h4{
+    font-size: 20px;
+    color: #DB7093;
+    border-bottom-style:hidden}
+
+h5{
+    
+    font-size: 20px;
+    color: #DB7093;
+    border-bottom-style:hidden    
+}
+H6{
+    
+    font-size: 13px;
+    color:#707070;
+    border-bottom-style:hidden
+}
 p {
+    color:#707070;
     font-family: arial, helvetica, sans-serif;
     font-size: 16px;
     line-height: 20px;
@@ -99,7 +124,7 @@ body {
 
 h1, h2 {
     text-align: center;
-    font-size: 30px
+    font-size: 45px
 }
    
 img {
