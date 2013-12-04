@@ -10,6 +10,8 @@ body {
 #wrapper {
     max-width: 960px;  
     margin: 0 auto;
+    padding
+    
 }
 
 article {
@@ -23,6 +25,8 @@ h1 {
     font-size: 40px;
     Margin: 20px;
     font-size-adjust: auto
+    
+    
 }
 
 p {
@@ -33,7 +37,13 @@ p {
 h2 {
     font-size: 45px;
     color: #DB7093;
-    border-bottom-style:hidden
+    border-bottom-style: hidden;
+    align-content: left; 30px;
+    padding-top: 200px; 
+    width:
+    text-align:center
+    
+    
         
 }
 
@@ -41,6 +51,7 @@ h3 {
     font-size: 30px;
     color: #DB7093;
     border-bottom-style:hidden
+        
 }
 
 h4 {
@@ -132,6 +143,7 @@ p {
     font-size: 13px;
     line-height: 20px;
     
+    
 }
 
 img {
@@ -147,13 +159,18 @@ nav {
     list-style-type: none;
     padding-right: 10px;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    padding-top: 150px ;
+    
     
 }
 
 nav li { 
     display: inline;
-    margin-right: 20px
+    margin-right: 20px;
+    
+        
+        
 }
 
 #content {
@@ -167,6 +184,8 @@ nav li {
   footer {
     border:0;
     width: 100%;
+    
+    
 
 }
 footer ul {
