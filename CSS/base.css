@@ -11,6 +11,7 @@ body {
     max-width: 960px;  
     margin: 0 auto;
     padding
+    background-color:
     
 }
 
@@ -24,33 +25,32 @@ h1 {
     float: left;
     font-size: 40px;
     Margin: 20px;
-    font-size-adjust: auto
-    
+    font-size-adjust: auto  
     
 }
 
 p {
-    font-family:
-
+    font-family:;
+        
 }
 
 h2 {
     font-size: 45px;
     color: #DB7093;
     border-bottom-style: hidden;
-    align-content: left; 30px;
-    padding-top: 200px; 
-    width:
-    text-align:center
-    
-    
+    align-content: center; 30px;
+    padding-top: 150px; 
+    width:   
         
 }
 
 h3 {
     font-size: 30px;
+    align-content: center;
     color: #DB7093;
     border-bottom-style:hidden
+        
+    
         
 }
 
@@ -148,11 +148,11 @@ p {
 
 img {
     float: right; 100%;
-    border: 40%;
+    border: 70%;
     margin: 2.7% 10% 0 10%;
-    padding: 2%; /* TRoubLe */
+    padding-bottom: 20px;
     width: 60%;
-    height:auto
+    height: 40%;
 }
 
 nav {
@@ -161,6 +161,7 @@ nav {
     text-align: center;
     text-transform: uppercase;
     padding-top: 150px;
+    color:
     
     
 }
@@ -168,6 +169,8 @@ nav {
 nav li { 
     display: inline;
     margin-right: 20px;
+    list-style-type: inline;
+    text-align: bottom;
     
         
         
@@ -214,21 +217,24 @@ h1, h2 {
    
 img {
 
-        width: 100%;
-        height: 100%;
+        width: 60%;
+        height: 40%;
         
     }
 
     
     
 nav {
-    border:0;
+    border: 0;
     width: 100%;
+    padding-bottom: 0px;    
+        
+        
 }
 
 nav ul {
     list-style-type: none;
-    padding-left: 0;
+    padding-left: 0px;
     text-align: center;
 }
 
